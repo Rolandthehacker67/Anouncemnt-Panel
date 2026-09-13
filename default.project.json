@@ -1,0 +1,25 @@
+{
+	"name": "AnnouncementPanel",
+	"tree": {
+		"$className": "DataModel",
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"AnnouncementPanel": {
+				"$className": "Script",
+				"$path": "AnnouncementPanel.luau"
+			}
+		},
+
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"AnnouncementPanel": {
+					"$className": "LocalScript",
+					"$path": "AnnouncementPanel.luau"
+				}
+			}
+		}
+	}
+}
